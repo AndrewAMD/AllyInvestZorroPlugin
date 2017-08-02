@@ -11,7 +11,7 @@ All dependencies have been fully integrated into the folder and slightly modifie
 * liboauthcpp (for OAuth 1.0a authentication)
 * pugixml (for XML parsing and writing)
 
-This project includes a Visual Studio 2017 solution.  You should be able to simply download the entire folder, open the solution, and build it. 
+This project includes a Visual Studio 2017 solution.  You should be able to simply download the entire folder, open the solution, and build it, using the Release x86 build configuration.
 
 ## Installation Instructions
 
@@ -53,15 +53,15 @@ The following standard Zorro Broker API functions have been implemented:
   * The broker API does not include "trade management".
   * Instead, one buys/sells to open and buys/sells to close.
 * BrokerCommand standard functions:
-  * GET_COMPLIANCE
-  * GET_POSITION
-  * GET_OPTIONS
-  * GET_UNDERLYING
-  * SET_SYMBOL
-  * SET_MULTIPLIER
+  * GET\_COMPLIANCE
+  * GET\_POSITION
+  * GET\_OPTIONS
+  * GET\_UNDERLYING
+  * SET\_SYMBOL
+  * SET\_MULTIPLIER
 
 Two non-standard BrokerCommand functions have also been implemented:
-* SET_COMBO_LEGS
+* SET\_COMBO\_LEGS
   * #define SET_COMBO_LEGS 137
   * Input: Only accepts 2, 3, or 4 as an input, for 2-leg, 3-leg, and 4-leg orders, respectively.
   * Returns 1 if command accepted, 0 if rejected.
@@ -82,8 +82,8 @@ Two non-standard BrokerCommand functions have also been implemented:
   </NewOrdMleg>
 </FIXML>
 ```
-* SET_DIAGNOSTICS
-  * #define SET_DIAGNOSTICS 138
+* SET\_DIAGNOSTICS
+  * #define SET\_DIAGNOSTICS 138
   * Input: 1 to enable, 0 to disable.
   * Returns 1 of command accepted, 0 if command rejected.
   * When enabled, all xml communications will be dumped into the Zorro\Log folder for diagnostic purposes.
