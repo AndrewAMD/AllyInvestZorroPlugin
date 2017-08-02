@@ -1,6 +1,6 @@
 # Ally Invest Plugin for Zorro
 
-Ally Invest is an low-commission stocks and options broker for USA residents that want to pay lower commissions on low-volume trades.  Ally offers its users a REST API, which uses XML and JSON.  Orders are placed in a FIXML-variant language.
+Ally Invest is an low-commission stocks and options broker for USA residents.  Ally offers its users a REST API, which uses XML and JSON.  Orders are placed in a FIXML-variant language.
 
 This plugin was written in Win32 C/C++ using Visual Studio 2017.
 
