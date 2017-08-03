@@ -97,3 +97,10 @@ Two non-standard BrokerCommand functions have also been implemented:
 ## License
 
 See the LICENSE.md file.
+
+## Resources
+
+* [The Zorro Project](http://zorro-project.com/)
+* [The Zorro Project - Manual](http://zorro-project.com/manual/)
+* [Ally Invest](https://www.ally.com/invest/)
+* [Ally Invest API Documentation](https://www.ally.com/api/invest/documentation/getting-started/)
