@@ -94,9 +94,9 @@ Two non-standard BrokerCommand functions have also been implemented:
 2. Server will sometimes return ask/bid quotes of 0.00 after hours / on weekends.
   1. Plugin might use the latest historical M1 data and treat it as a quote when quote is unavailable.  However, it will declare a spread of zero.
 
-## License
+## MIT License
 
-See the LICENSE.md file.
+This project is MIT-licensed. See the LICENSE.md file for more details.
 
 ## Resources
 
