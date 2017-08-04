@@ -11,7 +11,7 @@ All dependencies have been fully integrated into the folder and slightly modifie
 * liboauthcpp (for OAuth 1.0a authentication)
 * pugixml (for XML parsing and writing)
 
-This project includes a Visual Studio 2017 solution.  You should be able to simply download the entire folder, open the solution, and build it, using the __**Release x86**__ build configuration.
+This project includes a Visual Studio 2017 solution.  You should be able to simply download the entire folder, open the solution, and build it, using the _**Release x86**_ build configuration.
 
 ## Installation Instructions
 
