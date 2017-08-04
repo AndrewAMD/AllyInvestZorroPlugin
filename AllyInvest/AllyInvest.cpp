@@ -129,7 +129,7 @@
 #define SET_LIMIT		135 // set limit price for entry limit orders
 #define SET_HISTORY	136 // set file name for direct history download
 	#define SET_COMBO_LEGS  137 // !!!!!!!!!!!!!!!!! *** New Function: set number of legs in a combo order, int 2,3,4 accepted. *** Returns 1 if acknowledged, 0 if failure. !!!!!!!!!!!!!!!!!
-	#define SET_DIAGNOSTICS 138 // !!!!!!!!!!!!!!!!! *** New Function: enable(1) or disable(0) dumping server communications in .\Log folder, int 2,3,4 accepted. *** Returns 1 if acknowledged, 0 if failure.
+	#define SET_DIAGNOSTICS 138 // !!!!!!!!!!!!!!!!! *** New Function: enable(1) or disable(0) dumping server communications in .\Log folder. *** Returns 1 if acknowledged, 0 if failure.
 #define SET_DELAY		169
 #define SET_WAIT		170
 #define SET_LOCK		171
