@@ -13,12 +13,12 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4E3BA5A-3DA6-4189-9208-F5E0728FF3BB}.Debug|x86.ActiveCfg = Debug|Win32
-		{B4E3BA5A-3DA6-4189-9208-F5E0728FF3BB}.Debug|x86.Build.0 = Debug|Win32
+		#{B4E3BA5A-3DA6-4189-9208-F5E0728FF3BB}.Debug|x86.ActiveCfg = Debug|Win32
+		#{B4E3BA5A-3DA6-4189-9208-F5E0728FF3BB}.Debug|x86.Build.0 = Debug|Win32
 		{B4E3BA5A-3DA6-4189-9208-F5E0728FF3BB}.Release|x86.ActiveCfg = Release|Win32
 		{B4E3BA5A-3DA6-4189-9208-F5E0728FF3BB}.Release|x86.Build.0 = Release|Win32
-		{128BF9A4-BB6B-4EF1-BA45-FB2DE5F70589}.Debug|x86.ActiveCfg = Debug|Win32
-		{128BF9A4-BB6B-4EF1-BA45-FB2DE5F70589}.Debug|x86.Build.0 = Debug|Win32
+		#{128BF9A4-BB6B-4EF1-BA45-FB2DE5F70589}.Debug|x86.ActiveCfg = Debug|Win32
+		#{128BF9A4-BB6B-4EF1-BA45-FB2DE5F70589}.Debug|x86.Build.0 = Debug|Win32
 		{128BF9A4-BB6B-4EF1-BA45-FB2DE5F70589}.Release|x86.ActiveCfg = Release|Win32
 		{128BF9A4-BB6B-4EF1-BA45-FB2DE5F70589}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
