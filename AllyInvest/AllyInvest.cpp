@@ -1382,14 +1382,6 @@ namespace AllyInvest
 		// volume needs to be retrieved with BrokerHistory2.
 		if (pVolume) *pVolume = 0.;
 
-		// fixed values for standard USD equities account
-		if (pPip) *pPip = 0.01;
-		if (pPipCost) *pPipCost = 0.01;
-		if (pLotAmount) *pLotAmount = 1.0;
-
-		//assuming a cash account.  User will need to manually set MarginCost, especially when handling options.
-		if (pMarginCost) *pMarginCost = (*pPrice *  1.);
-
 		// no rollovers
 		if (pRollLong) *pRollLong = 0.;
 		if (pRollShort) *pRollShort = 0.;
