@@ -85,7 +85,7 @@ Two non-standard BrokerCommand functions have also been implemented:
 * SET\_DIAGNOSTICS
   * #define SET\_DIAGNOSTICS 138
   * Input: 1 to enable, 0 to disable.
-  * Returns 1 of command accepted, 0 if command rejected.
+  * Returns 1 if command accepted, 0 if command rejected.
   * When enabled, all xml communications will be dumped into the Zorro\Log folder for diagnostic purposes.
 
 ## Known Issues
