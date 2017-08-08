@@ -29,6 +29,7 @@ To login with the Ally Plugin, you will first need to set up API access with All
 * Scroll down. Under "Developer Applications", click on the application you created.
 * You should see four scrambled keys.  You will need these.
 * Open Zorro.  
+* Set "Account" to "Real", and choose the "Ally Invest" plugin from the drop-down menus.
 * Under "User", enter your account number (not to be confused with your website login username)
 * For the password, paste the values in one after the other, in the exact order below (no spaces, no commas):
   1. Consumer Key
