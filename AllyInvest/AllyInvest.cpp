@@ -759,7 +759,8 @@ namespace AllyInvest
 				{
 					if (Output->substr(Output->length()-1, 1) == ">") break;
 
-					*Output = Output->substr(0, Output->length() - 1);
+					//*Output = Output->substr(0, Output->length() - 1);
+					Output->pop_back();
 				}
 
 				if (IsQuotaExceeded(*Output))
