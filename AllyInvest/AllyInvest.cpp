@@ -1458,7 +1458,7 @@ namespace AllyInvest
 
 			try
 			{
-				DATE checktime = convertTime(oss_datetime.str(), STR_FIX);
+				DATE checktime = convertTime(oss_datetime.str(), STR_TS) + ((double)nTickMinutes)/1440.;
 				if (checktime < tStart) break;
 				if (checktime > tEnd) continue;
 				
