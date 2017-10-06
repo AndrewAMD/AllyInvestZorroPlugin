@@ -60,10 +60,11 @@ The following standard Zorro Broker API functions have been implemented:
   * GET\_UNDERLYING
   * SET\_SYMBOL
   * SET\_MULTIPLIER
+  * SET\_COMBO\_LEGS
+  * SET\_DIAGNOSTICS
 
-Two non-standard BrokerCommand functions have also been implemented:
+These BrokerCommand functions have originated with this plugin:
 * SET\_COMBO\_LEGS
-  * #define SET_COMBO_LEGS 137
   * Input: Only accepts 2, 3, or 4 as an input, for 2-leg, 3-leg, and 4-leg orders, respectively.
   * Returns 1 if command accepted, 0 if rejected.
   * To use, call the function and then call the orders immediately.
@@ -84,16 +85,13 @@ Two non-standard BrokerCommand functions have also been implemented:
 </FIXML>
 ```
 * SET\_DIAGNOSTICS
-  * #define SET\_DIAGNOSTICS 138
   * Input: 1 to enable, 0 to disable.
   * Returns 1 if command accepted, 0 if command rejected.
   * When enabled, all xml communications will be dumped into the Zorro\Log folder for diagnostic purposes.
 
 ## Known Issues
-1. On holidays, broker API might say that the market is open when it is closed.  
-  1. Broker has not solved this issue as of 2017-05.
-2. Server will sometimes return ask/bid quotes of 0.00 after hours / on weekends.
-  1. Plugin might use the latest historical M1 data and treat it as a quote when quote is unavailable.  However, it will declare a spread of zero.
+1. On holidays, broker API might say that the market is open when it is closed.  Broker has not solved this issue as of 2017-05.
+2. Server will sometimes return ask/bid quotes of 0.00 after hours / on weekends.  In this case, the plugin might use the latest historical M1 data instead and treat it as a quote.  However, it will declare a spread of zero.
 
 ## MIT License
 
